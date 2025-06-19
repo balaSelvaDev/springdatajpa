@@ -27,5 +27,8 @@ public class ProductController {
         productService.deleteProduct(Long.valueOf(productId));
     }
 
-
+//    @PutMapping
+//    public ProductEntity updateProductDetail(@ResponseBody ProductEntity product) {
+//        return null;
+//    }
 }
